@@ -5,21 +5,49 @@ I have hands-on experience across a range of projects, including robotics naviga
 In my free time, I enjoy singing acapella, playing the violin, rock climbing, fire spinning/flow arts, and playing a game of cards!
 
 
-<a href="https://docs.google.com/document/d/11EHo2UbHeqNA61utVE8BWHQ53VHdlCXAargG_SQNW9A/edit?usp=sharing">
-  <button type="button" class="button">Mechanical Resume</button>
-</a>
-<a href="https://docs.google.com/document/d/12vvqqpC_C6g-NN_89Gn1j3ArmCujS18Q08KN-aUr5cw/edit?usp=sharing">
-  <button type="button" class="button">Robotics Resume</button>
-</a>
+<div class="resume-buttons">
+  <a href="https://docs.google.com/document/d/11EHo2UbHeqNA61utVE8BWHQ53VHdlCXAargG_SQNW9A/edit?usp=sharing">
+    <button type="button" class="button">Mechanical Resume</button>
+  </a>
+  <a href="https://docs.google.com/document/d/12vvqqpC_C6g-NN_89Gn1j3ArmCujS18Q08KN-aUr5cw/edit?usp=sharing">
+    <button type="button" class="button">Robotics Resume</button>
+  </a>
+</div>
 
 
 
-![headshot](C:\Users\ageorge\OneDrive - Olin College of Engineering\Documents\GitHub\personal-portfolio\assets\home-page\headshot.jpg)
+![headshot](assets\home-page\headshot.jpg)
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <style>
+  .resume-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+  }
+  
+  .resume-buttons a {
+    text-decoration: none;
+  }
+  
+  .resume-buttons .button {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-buttons .button:hover {
+    background-color: #004499;
+  }
+  
   .social-footer {
     display: flex;
     justify-content: center;

@@ -2,7 +2,7 @@
   <div class="navbar-item">
     <a href="#">Mechanical Projects</a>
     <div class="dropdown-content">
-      <a href="#mechanical1">Injection Molded Keychain</a>
+      <a href="https://amgeorge22.github.io/personal-portfolio/injection-molded-keychain">Injection Molded Keychain</a>
       <a href="#mechanical2">Urethan Casting Airpods Case</a>
       <a href="#mechanical3">DFM Treasure Box</a>
       <a href="#mechanical4">FSAE Motor Mounting</a>

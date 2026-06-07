@@ -1,6 +1,8 @@
 <nav class="navbar">
   <div class="navbar-item">
     <a href="#">Home</a>
+    <div class="dropdown-content">
+    </div>
     <a href="#">Mechanical Projects</a>
     <div class="dropdown-content">
       <a href="https://amgeorge22.github.io/personal-portfolio/injection-molded-keychain">Injection Molded Keychain</a>

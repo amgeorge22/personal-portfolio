@@ -42,7 +42,7 @@
 
 As part of my Design for Manufacturing course, I designed and fabricated a case to fit around the 3rd generation AirPods charging case.
 
-The goal of this project was to design an AirPods case that could be made out of silicone via urethane casting. The case would be able to fit into a piece of vacuum-formed packaging that a partner created. The case itself needed to be able to fit the AirPods charging case, which has a height of 1.83 inches, a width of 2.14 inches, and a depth of 0.84 inch [1](https://support.apple.com/en-us/111863). The case also needed to have a loop that a carabiner could fit into, a hole for the charging port, and a gap in the back to allow the case to open and close smoothly. One of our design goals was to also have a fun, aesthetic design on the case, which is the flower that you can see below.
+The goal of this project was to design an AirPods case that could be made out of silicone via urethane casting. The case would be able to fit into a piece of vacuum-formed packaging that a partner created. The case itself needed to be able to fit the AirPods charging case, which has a height of 1.83 inches, a width of 2.14 inches, and a depth of 0.84 inch [<a href="https://support.apple.com/en-us/111863" target="_blank">1</a>]. The case also needed to have a loop that a carabiner could fit into, a hole for the charging port, and a gap in the back to allow the case to open and close smoothly. One of our design goals was to also have a fun, aesthetic design on the case, which is the flower that you can see below.
 ![case on keychain](assets\urethane-casting-airpods-case\on-carabiner.jpg)
 ![case in packaging](assets\urethane-casting-airpods-case\in-packaging.jpg)
 ![case closed](assets\urethane-casting-airpods-case\closed-case.jpg)
@@ -58,7 +58,7 @@ In order to create this case, I designed two different molds, one for the top ha
 ![Bottom mold CAD](assets\urethane-casting-airpods-case\bottom-mold-explode.jpg)
 ![Top mold CAD](assets\urethane-casting-airpods-case\top-mold-exploded.jpg)
 
-Both molds were 3D printed. Once the molds were sprayed with mold release, I filled the molds with Smooth On's Dragon Skin silicone [2](https://www.smooth-on.com/products/dragon-skin-20-nv/). I chose to make the case out of silicone because it would be easy to fit the AirPods in the case and pull the case off the AirPods as needed. After allowing the silicone to cure for twenty minutes, a small amount of post-processing had to be done (removing excess silicone from the pour spout and relief holes) Then, the case was ready to put on the AirPods!
+Both molds were 3D printed. Once the molds were sprayed with mold release, I filled the molds with Smooth On's Dragon Skin silicone [<a href="https://www.smooth-on.com/products/dragon-skin-20-nv/" target="_blank">2</a>]. I chose to make the case out of silicone because it would be easy to fit the AirPods in the case and pull the case off the AirPods as needed. After allowing the silicone to cure for twenty minutes, a small amount of post-processing had to be done (removing excess silicone from the pour spout and relief holes) Then, the case was ready to put on the AirPods!
 
 ![printed molds](assets\urethane-casting-airpods-case\printed-molds.jpg)
 ![filling molds](assets\urethane-casting-airpods-case\curing.jpg)
@@ -75,15 +75,15 @@ As this was my first foray into urethane casting, I encountered several challeng
 
 I realized there were two major factors making it difficult to fill the mold - the pour spout being too small and the walls of the case being too thin. The initial diameter of the pour spout was too small, making it difficult to fill the mold before the pot life of the silicone (the amount of time I could work with the silicone before it started curing) ran out. The walls being too thin made it difficult for the silicone to flow through the mold. Making these changes to the mold led to the much more successful AirPods case.
 
-Another challenge I ran into was attempting to remove the layer lines from my 3D printed molds. Silicone can fill every nook and cranny of a mold, including the layer lines that are a byproduct of 3D printing. In my initial mold, I used Smooth-On XTC [3](https://www.smooth-on.com/product-line/xtc-3d/), a coating the fills in the gaps between layer lines. However, likely because I applied too much and because the walls of the AirPods case were very thin, the coating blocked parts of the mold that should be filled with silicone. For the second mold, I elected not to work on with Smooth-On XTC, and while the layer lines are visible on the final product, I am not displeased with the results.
+Another challenge I ran into was attempting to remove the layer lines from my 3D printed molds. Silicone can fill every nook and cranny of a mold, including the layer lines that are a byproduct of 3D printing. In my initial mold, I used Smooth-On XTC [<a href="https://www.smooth-on.com/product-line/xtc-3d/" target="_blank">3</a>], a coating the fills in the gaps between layer lines. However, likely because I applied too much and because the walls of the AirPods case were very thin, the coating blocked parts of the mold that should be filled with silicone. For the second mold, I elected not to work on with Smooth-On XTC, and while the layer lines are visible on the final product, I am not displeased with the results.
 
 ### Cost Analysis
 A gallon of Smooth-On's Dragon Skin is $230. Approximately 214 AirPods cases can be made with this volume of silicone, which makes the cost of each case $1.07. The molds use about 160g of PLA filament, which would cost $4.82. For 100 cases, the total cost of materials per case would be $1.12. This does not factor in labor costs, the costs of facilities (gloves for handling silicone, 3D printers, etc.), or packaging and shipping to customers.
 
 ### Links
-1. https://support.apple.com/en-us/111863
-2. https://www.smooth-on.com/products/dragon-skin-20-nv/
-3. https://www.smooth-on.com/product-line/xtc-3d/
+1. <a href="https://support.apple.com/en-us/111863" target="_blank">https://support.apple.com/en-us/111863</a>
+2. <a href="https://www.smooth-on.com/products/dragon-skin-20-nv/" target="_blank">https://www.smooth-on.com/products/dragon-skin-20-nv/</a>
+3. <a href="https://www.smooth-on.com/product-line/xtc-3d/" target="_blank">https://www.smooth-on.com/product-line/xtc-3d/</a>
 
 <style>
   .navbar {

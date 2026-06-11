@@ -1,13 +1,13 @@
 <nav class="navbar">
   <div class="navbar-item">
     <a href="https://amgeorge22.github.io/personal-portfolio/home">Home</a>
-    <div class="dropdown-content">
-    </div>
+  </div>
+  <div class="navbar-item">
     <a href="#">Mechanical Projects</a>
     <div class="dropdown-content">
-      <a href="https://amgeorge22.github.io/personal-portfolio/injection-molded-keychain">Injection Molded Keychain</a>
-      <a href="#">Urethane Casting Airpods Case</a>
-      <a href="#mechanical3">DFM Treasure Box</a>
+      <a href="#">Injection Molded Keychain</a>
+      <a href="https://amgeorge22.github.io/personal-portfolio/urethane-casting-airpods-case">Urethane Casting Airpods Case</a>
+      <a href="https://amgeorge22.github.io/personal-portfolio/cnc-machined-box">CNC Machined Box</a>
       <a href="#mechanical4">FSAE Motor Mounting</a>
       <a href="#mechanical5">Tilt-In-Space Wheelchair</a>
       <a href="#mechanical6">Beam Deflection Calculator</a>
@@ -94,21 +94,26 @@ A gallon of Smooth-On's Dragon Skin is $230. Approximately 214 AirPods cases can
     margin: -20px -20px 30px -20px;
     display: flex;
     justify-content: center;
+    align-items: stretch;
     gap: 0;
+    flex-wrap: nowrap;
   }
   
   .navbar-item {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    flex: 1 1 auto;
+    min-width: 0;
   }
   
   .navbar-item > a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px 20px;
+    padding: 12px 14px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
+    white-space: nowrap;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }

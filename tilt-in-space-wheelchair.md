@@ -1,6 +1,6 @@
 <nav class="navbar">
   <div class="navbar-item">
-    <a href="#">Home</a>
+    <a href="https://amgeorge22.github.io/personal-portfolio/home">Home</a>
   </div>
   <div class="navbar-item">
     <a href="#">Mechanical Projects</a>
@@ -9,7 +9,7 @@
       <a href="https://amgeorge22.github.io/personal-portfolio/urethane-casting-airpods-case">Urethane Casting Airpods Case</a>
       <a href="https://amgeorge22.github.io/personal-portfolio/cnc-machined-box">CNC Machined Box</a>
       <a href="https://amgeorge22.github.io/personal-portfolio/fsae-motor-mounting">FSAE Motor Mounting</a>
-      <a href="https://amgeorge22.github.io/personal-portfolio/tilt-in-space-wheelchair">Tilt-In-Space Wheelchair</a>
+      <a href="#">Tilt-In-Space Wheelchair</a>
       <a href="#mechanical6">Beam Deflection Calculator</a>
       <a href="#mechanical7">3D Printing Variability Study</a>
     </div>
@@ -41,28 +41,25 @@
     </div>
   </div>
 </nav>
-Hi, I’m Alex George, a mechanical engineer who recently graduated from Olin College of Engineering. I'm based in the Boston area, and I’m passionate about mechanical design, robotics, and building systems that integrate hardware and software. I am seeking full-time opportunities in robotics, mechanical design, or mechanical engineering.
 
-I have hands-on experience across a range of projects, including robotics navigation using ROS2 and Nav2, serving as mechanical subsystem lead for the drivetrain and transmission of Olin’s Formula SAE car, and conducting R&D in agricultural robotics. I have also conducted engineering education research involving AI and mathematical modeling. Check out the wide variety of robotics, mechanical, and software projects I've worked on!
+For the class Mechanical Design, I worked in a team of four alongside [<a href="https://www.kyaroassistive.org" target="_blank">(Kyaro Assistive Tech)</a>] to create a “Tilt-In-Space” wheelchair. Our wheelchair is able to rotate backwards in increments of 15°, and lock in place at each increment. It is designed to be easy to manufacture (able to be machined within the shop capabilities in Tanzania) and easy to operate. To make it easy to manufacture, we modified the original Kyaro wheelchair design, ultimately creating an additional 5 unique parts to be added to the original design. 
 
-In my free time, I enjoy singing acapella, playing the violin, rock climbing, fire spinning/flow arts, and playing a game of cards!
+The wheelchair was designed in OnShape, and any unique parts and modifications to the original wheelchair were physically prototyped. 
+To learn more about the project, check out the website here: [<a href="https://sites.google.com/view/tiltinspacewheelchair/home" target="_blank">(https://sites.google.com/view/tiltinspacewheelchair/home)</a>]
 
+![exploded front](assets\tilt-in-space-wheelchair\exploded-front)
+![exploded central frame](assets\tilt-in-space-wheelchair\exploded-central-frame)
+![expoded iso](assets\tilt-in-space-wheelchair\exploded-iso)
+![exploded top](assets\tilt-in-space-wheelchair\exploded-top)
+![CAD central frame + linkage](assets\tilt-in-space-wheelchair\cad-central-frame-and-linkage)
+![CAD full chair](assets\tilt-in-space-wheelchair\cad-full-chair)
+![CAD full chair iso tilted back](assets\tilt-in-space-wheelchair\cad-full-chair-iso-tilted)
+![CAD full chair iso upright](assets\tilt-in-space-wheelchair\cad-full-chair-iso-upright)
 
-<div class="resume-buttons">
-  <a href="https://docs.google.com/document/d/11EHo2UbHeqNA61utVE8BWHQ53VHdlCXAargG_SQNW9A/edit?usp=sharing">
-    <button type="button" class="button">Mechanical Resume</button>
-  </a>
-  <a href="https://docs.google.com/document/d/12vvqqpC_C6g-NN_89Gn1j3ArmCujS18Q08KN-aUr5cw/edit?usp=sharing">
-    <button type="button" class="button">Robotics Resume</button>
-  </a>
-</div>
-
-
-
-![headshot](assets\home-page\headshot.jpg)
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+### WIP 
+- Add photos of chair in action and go into more detail in general
+- reorder CAD photos to an order that makes sense
+- Add labels to CAD photos
 
 <style>
   .navbar {
@@ -125,62 +122,4 @@ In my free time, I enjoy singing acapella, playing the violin, rock climbing, fi
   .navbar-item:hover .dropdown-content {
     display: block;
   }
-  
-  .resume-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 30px 0;
-  }
-  
-  .resume-buttons a {
-    text-decoration: none;
-  }
-  
-  .resume-buttons .button {
-    background-color: #0066cc;
-    color: white;
-    padding: 15px 35px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .resume-buttons .button:hover {
-    background-color: #004499;
-  }
-  
-  .social-footer {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
-    padding-top: 30px;
-    border-top: 1px solid #ccc;
-  }
-  
-  .social-footer a {
-    text-decoration: none;
-    color: #0066cc;
-    font-size: 32px;
-    transition: color 0.3s ease;
-  }
-  
-  .social-footer a:hover {
-    color: #004499;
-  }
 </style>
-
-<div class="social-footer">
-  <a href="https://www.linkedin.com/in/alexmgeorge1/" title="LinkedIn" target="_blank">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://github.com/amgeorge22" title="GitHub" target="_blank">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="mailto:alexandrageorge558@gmail.com" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</div>

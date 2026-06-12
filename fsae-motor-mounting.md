@@ -1,6 +1,6 @@
 <nav class="navbar">
   <div class="navbar-item">
-    <a href="#">Home</a>
+    <a href="https://amgeorge22.github.io/personal-portfolio/home">Home</a>
   </div>
   <div class="navbar-item">
     <a href="#">Mechanical Projects</a>
@@ -8,7 +8,7 @@
       <a href="https://amgeorge22.github.io/personal-portfolio/injection-molded-keychain">Injection Molded Keychain</a>
       <a href="https://amgeorge22.github.io/personal-portfolio/urethane-casting-airpods-case">Urethane Casting Airpods Case</a>
       <a href="https://amgeorge22.github.io/personal-portfolio/cnc-machined-box">CNC Machined Box</a>
-      <a href="https://amgeorge22.github.io/personal-portfolio/fsae-motor-mounting">FSAE Motor Mounting</a>
+      <a href="#">FSAE Motor Mounting</a>
       <a href="https://amgeorge22.github.io/personal-portfolio/tilt-in-space-wheelchair">Tilt-In-Space Wheelchair</a>
       <a href="#mechanical6">Beam Deflection Calculator</a>
       <a href="#mechanical7">3D Printing Variability Study</a>
@@ -41,28 +41,18 @@
     </div>
   </div>
 </nav>
-Hi, I’m Alex George, a mechanical engineer who recently graduated from Olin College of Engineering. I'm based in the Boston area, and I’m passionate about mechanical design, robotics, and building systems that integrate hardware and software. I am seeking full-time opportunities in robotics, mechanical design, or mechanical engineering.
 
-I have hands-on experience across a range of projects, including robotics navigation using ROS2 and Nav2, serving as mechanical subsystem lead for the drivetrain and transmission of Olin’s Formula SAE car, and conducting R&D in agricultural robotics. I have also conducted engineering education research involving AI and mathematical modeling. Check out the wide variety of robotics, mechanical, and software projects I've worked on!
+As a part of Olin Electric Motorsports (Formula SAE), I designed and fabricated a mounting system that withstands load cases of up to 10,500 Newtons in order to safely secure our race car motor to the chassis. I conducted topology studies to optimize light-weighting of the mounting plates and utilized Finite Element Analysis (FEA) to ensure a minimum 1.5 factor of safety on our plates and brackets. Check out [<a href="https://docs.google.com/presentation/d/1Rq5lbfT-gt4GSHfbYNGIG5v_Nh4KfM8RXztWXbIOif4/edit?usp=sharing" target="_blank">this detailed breakdown</a>] to understand the design decisions made! 
 
-In my free time, I enjoy singing acapella, playing the violin, rock climbing, fire spinning/flow arts, and playing a game of cards!
+![clockage render](assets\fsae-motor-mounting\clockage-render.jpg)
+![clockage in car iso view](assets\fsae-motor-mounting\clockage-in-car-iso.jpg)
+![clockage in car top view](assets\fsae-motor-mounting\clockage-in-car-top.jpg)
+![physical clockage](assets\fsae-motor-mounting\clockage-phyiscal-assembly.jpg)
+![output plate analysis](assets\fsae-motor-mounting\FEA-output-plate.jpg)
+![motor mounting plate analysis](assets\fsae-motor-mounting\topology-input-plate.jpg)
+![plate overview](assets\fsae-motor-mounting\output-plate-overview.jpg)
+![system diagram](assets\fsae-motor-mounting\system-diagram.jpg)
 
-
-<div class="resume-buttons">
-  <a href="https://docs.google.com/document/d/11EHo2UbHeqNA61utVE8BWHQ53VHdlCXAargG_SQNW9A/edit?usp=sharing">
-    <button type="button" class="button">Mechanical Resume</button>
-  </a>
-  <a href="https://docs.google.com/document/d/12vvqqpC_C6g-NN_89Gn1j3ArmCujS18Q08KN-aUr5cw/edit?usp=sharing">
-    <button type="button" class="button">Robotics Resume</button>
-  </a>
-</div>
-
-
-
-![headshot](assets\home-page\headshot.jpg)
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <style>
   .navbar {
@@ -125,62 +115,4 @@ In my free time, I enjoy singing acapella, playing the violin, rock climbing, fi
   .navbar-item:hover .dropdown-content {
     display: block;
   }
-  
-  .resume-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 30px 0;
-  }
-  
-  .resume-buttons a {
-    text-decoration: none;
-  }
-  
-  .resume-buttons .button {
-    background-color: #0066cc;
-    color: white;
-    padding: 15px 35px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .resume-buttons .button:hover {
-    background-color: #004499;
-  }
-  
-  .social-footer {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
-    padding-top: 30px;
-    border-top: 1px solid #ccc;
-  }
-  
-  .social-footer a {
-    text-decoration: none;
-    color: #0066cc;
-    font-size: 32px;
-    transition: color 0.3s ease;
-  }
-  
-  .social-footer a:hover {
-    color: #004499;
-  }
 </style>
-
-<div class="social-footer">
-  <a href="https://www.linkedin.com/in/alexmgeorge1/" title="LinkedIn" target="_blank">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://github.com/amgeorge22" title="GitHub" target="_blank">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="mailto:alexandrageorge558@gmail.com" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</div>

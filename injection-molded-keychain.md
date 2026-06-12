@@ -8,8 +8,8 @@
       <a href="#">Injection Molded Keychain</a>
       <a href="https://amgeorge22.github.io/personal-portfolio/urethane-casting-airpods-case">Urethane Casting Airpods Case</a>
       <a href="https://amgeorge22.github.io/personal-portfolio/cnc-machined-box">CNC Machined Box</a>
-      <a href="#mechanical4">FSAE Motor Mounting</a>
-      <a href="#mechanical5">Tilt-In-Space Wheelchair</a>
+      <a href="https://amgeorge22.github.io/personal-portfolio/fsae-motor-mounting">FSAE Motor Mounting</a>
+      <a href="https://amgeorge22.github.io/personal-portfolio/tilt-in-space-wheelchair">Tilt-In-Space Wheelchair</a>
       <a href="#mechanical6">Beam Deflection Calculator</a>
       <a href="#mechanical7">3D Printing Variability Study</a>
     </div>

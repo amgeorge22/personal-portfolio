@@ -38,9 +38,6 @@ Buttons and links that point to files or URLs you haven't supplied yet are marke
 | Beam Deflection Calculator | `assets/docs/beam-deflection-report.pdf` |
 | 3D Printing Variability Study | `assets/docs/3d-printing-variability-report.pdf` |
 | Injection Keychain / Airpod Case / Treasure Box | `assets/docs/dfm-portfolio.pdf` |
-| Sudoku Graph Coloring | Colab notebook URL |
-| SoftDew Valley | project website URL |
-| Poi Style Classifier | project website URL |
 
 The footer is repeated in each HTML file, so use find-and-replace across the folder when you update the social links.
 

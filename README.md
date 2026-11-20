@@ -46,6 +46,7 @@ The footer is repeated in each HTML file, so use find-and-replace across the fol
 - Revamp home page to be more updated
 - Put DFM portfolio pages together
 - Find missing images and get them into the repo
+- Add third research paper
 - Go over content on each page
 
 ## Structure

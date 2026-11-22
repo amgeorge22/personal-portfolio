@@ -1,25 +1,232 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DFM Treasure Box | Alex George</title><meta name="description" content="A spade-shaped aluminum box that holds two poker blind chips, machined on a Tormach CNC mill with a custom 3D-printed jig."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style.css"></head><body><header class="site-header"><div class="wrap"><a class="brand" href="../index.html">Alex George</a><nav class="nav" aria-label="Main"><a href="../index.html">Home</a><a href="../mechatronics.html">Mechatronics</a><a href="../mechanical.html" aria-current="page">Mechanical</a><a href="../software.html">Software</a><a href="../research.html">Research</a></nav></div></header><main class="wrap"><div class="crumbs"><a href="../index.html">Home</a> / <a href="../mechanical.html">Mechanical Projects</a></div><div class="project-head"><span class="year">2026</span><h1>DFM Treasure Box</h1><div class="tags"><span class="tag">Fusion 360</span><span class="tag">CNC milling</span><span class="tag">Tormach</span><span class="tag">Custom jig</span></div></div><div class="prose"><p>As part of my Design for Manufacturing course, I designed and fabricated a precision-machined &ldquo;treasure box&rdquo; to hold two poker blind chips.</p></div>
-<div class="prose"><p>The goal of this project was to design two interlocking halves that could be machined on a CNC mill out of 3″ x 3″ x 1.25″ aluminum stock. The box had to have internal geometry to secure an object of our choice and could fit whatever aesthetic we wanted. I chose to design my box to hold two poker blind chips, both of which were 1.875″ in diameter. The overall shape of the box was a spade, to fit with the poker theme. The two halves of the box were aligned with a 0.25″ dowel pin and 0.25″ diamond pin for easy assembly.</p></div>
-<div class="row"><figure class="shot" style="flex:0.7500 1 0"><img src="../assets/img/dfm-treasure-box/spade-box.jpg" alt="The closed aluminum spade-shaped box on a wooden table" width="1350" height="1800" loading="lazy" decoding="async"></figure><figure class="shot" style="flex:1.8809 1 0"><img src="../assets/img/dfm-treasure-box/flat-open.jpg" alt="The two halves of the open box side by side, one holding a wooden BIG BLIND poker chip" width="1800" height="957" loading="lazy" decoding="async"></figure></div>
-<div class="prose"><p>The final project is pictured above. It successfully holds two poker chips, and both of them are easy to remove due to the machined divots next to the hole that holds the chips. The two halves are also easy to align and remove, allowing the box to be opened and closed many times. While the shape of the box fits my intended aesthetic very well, I hope to be able to powder coat the box black in the near future.</p></div>
-<div class="row" style="max-width:780px"><figure class="shot" style="flex:1.2332 1 0"><img src="../assets/img/dfm-treasure-box/cam-bottom.jpg" alt="Fusion 360 simulation of the bottom half&#x27;s toolpaths around the stock" width="952" height="772" loading="lazy" decoding="async"><figcaption>Fusion 360 toolpaths for the bottom half.</figcaption></figure><figure class="shot" style="flex:1.3242 1 0"><img src="../assets/img/dfm-treasure-box/cam-top.jpg" alt="Fusion 360 simulation of the top half&#x27;s toolpaths around the stock" width="968" height="731" loading="lazy" decoding="async"><figcaption>Fusion 360 toolpaths for the top half.</figcaption></figure></div>
-<div class="row"><figure class="shot" style="flex:0.7500 1 0"><img src="../assets/img/dfm-treasure-box/machining-bottom.jpg" alt="The bottom half clamped in the vise of a Tormach 770 mill" width="1350" height="1800" loading="lazy" decoding="async"><figcaption>Machining the bottom half on the Tormach mill.</figcaption></figure><figure class="shot" style="flex:0.7500 1 0"><img src="../assets/img/dfm-treasure-box/machining-top-1.jpg" alt="Standing at a CNC mill&#x27;s control panel while the top half is machined" width="1350" height="1800" loading="lazy" decoding="async"><figcaption>Machining the top half.</figcaption></figure><figure class="shot" style="flex:1.3333 1 0"><img src="../assets/img/dfm-treasure-box/machining-top-2.jpg" alt="Watching the top half being machined through the mill&#x27;s window" width="1800" height="1350" loading="lazy" decoding="async"><figcaption>Machining the top half.</figcaption></figure></div>
-<div class="single" style="max-width:640px"><figure class="shot"><img src="../assets/img/dfm-treasure-box/tormach-controller.jpg" alt="The Tormach controller screen showing the loaded program and axis positions" width="1800" height="1350" loading="lazy" decoding="async"><figcaption>The program loaded on the Tormach controller.</figcaption></figure></div>
-<div class="prose"><p>This project marked my first full workflow from CAD to CAM to machining. I generated all toolpaths in Fusion 360 and machined the components on a Tormach CNC mill, gaining hands-on experience with setup, workholding strategy, and multi-operation machining. The parts were produced using a pedestal milling approach, with excess stock faced off in a secondary operation to achieve final geometry and surface finish.</p></div>
-<div class="row" style="max-width:640px"><figure class="shot" style="flex:0.7500 1 0"><img src="../assets/img/dfm-treasure-box/pedestal-milling.jpg" alt="The part clamped in the mill&#x27;s vise with the green custom jig" width="1350" height="1800" loading="lazy" decoding="async"><figcaption>The part clamped in the vise with the custom jig.</figcaption></figure><figure class="shot" style="flex:0.7500 1 0"><img src="../assets/img/dfm-treasure-box/jig-before-pedestal-milling.jpg" alt="A hand holding the part with the green 3D-printed jig attached" width="1350" height="1800" loading="lazy" decoding="async"><figcaption>The part with the custom jig before pedestal milling.</figcaption></figure></div>
-<div class="prose"><p>One of the challenges with this project was the pedestal milling. Part of the geometry of the spade is the point at the end, which is not easy to clamp onto with a vise in the CNC mill. I designed and 3D printed a custom jig to hold the point, which allowed me to securely clamp the piece in the mill and successfully remove excess stock from the bottom of both of the halves.</p></div>
-<div class="row" style="max-width:640px"><figure class="shot" style="flex:0.7500 1 0"><img src="../assets/img/dfm-treasure-box/fit-before-pedestal-milling.jpg" alt="The aluminum block with its pedestal before the excess stock is milled away" width="1350" height="1800" loading="lazy" decoding="async"><figcaption>Fit check before pedestal milling.</figcaption></figure><figure class="shot" style="flex:0.9872 1 0"><img src="../assets/img/dfm-treasure-box/faced-top.jpg" alt="The top half after facing, with visible cutter marks" width="1777" height="1800" loading="lazy" decoding="async"><figcaption>The top half after facing.</figcaption></figure></div>
-<div class="row" style="max-width:700px"><figure class="shot" style="flex:1.1799 1 0"><img src="../assets/img/dfm-treasure-box/cad-front.jpg" alt="CAD front view of the two halves with the alignment pins" width="551" height="467" loading="lazy" decoding="async"><figcaption>CAD of the box, front view.</figcaption></figure><figure class="shot" style="flex:0.8810 1 0"><img src="../assets/img/dfm-treasure-box/cad-iso.jpg" alt="CAD isometric view of the two halves separated with the alignment pins between them" width="555" height="630" loading="lazy" decoding="async"><figcaption>CAD of the box, isometric view.</figcaption></figure></div>
-<div class="prose"><p>Another challenge was determining the tolerances of the alignment holes that the pins were set in. One of the pins was a dowel pin, which had a diameter of 0.25″ throughout. The other was a diamond pin, which had a shank with a diameter of 3/16″ and a diamond head diameter of 0.25″. I used a reamer for the 0.25″ holes in order to ensure that they were concentric and the correct diameter for my dowel pins. The fit on these holes is good - the dowel pin fits snugly with very little wiggle, but is still easy to remove if necessary. I failed to realize that the shank of the diamond pin required equally precise tolerance. I simply used a 3/16″ drill bit, and, as a result, there is a small amount of wiggle. While the two halves of the box fit together well, this small amount of wiggle prevents it from being as polished a final product as it could be.</p></div>
-<div class="prose"><p>While machining the two halves of the box, I was worried that it would be difficult to slide the pins into the box. To avoid this, I added a chamfer to all the holes in the box. This makes it easy to drop the poker chips into the box, as well as getting the pins in place.</p></div>
-<div class="row"><figure class="shot" style="flex:0.9972 1 0"><img src="../assets/img/dfm-treasure-box/machined-top.jpg" alt="The machined top half of the box" width="1795" height="1800" loading="lazy" decoding="async"><figcaption>The top half, machined.</figcaption></figure><figure class="shot" style="flex:0.9794 1 0"><img src="../assets/img/dfm-treasure-box/machined-bottom.jpg" alt="The machined bottom half with the chip pocket and pin holes" width="1763" height="1800" loading="lazy" decoding="async"><figcaption>The bottom half, machined.</figcaption></figure><figure class="shot" style="flex:1.4622 1 0"><img src="../assets/img/dfm-treasure-box/iso-open.jpg" alt="The two halves of the box open, side by side" width="1800" height="1231" loading="lazy" decoding="async"><figcaption>The two halves, open.</figcaption></figure></div>
-<div class="prose"><p>Overall, this was a successful project that taught me a lot about designing for CNC machining, how to set up CAM, and how to operate a CNC mill. I also learned how to tolerance a part to ensure proper fit, which will continue to be useful for future projects.</p></div>
-<h2 class="section-title">Manufacturing Details</h2>
-<div class="table-wrap"><table><thead><tr><th scope="col">List of Operations (Top Half)</th><th scope="col">List of Operations (Bottom Half)</th></tr></thead><tbody><tr><td>Facing (2″ face mill)</td><td>Facing (2″ face mill)</td></tr><tr><td>Roughing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td><td>Roughing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td></tr><tr><td>Drilling &amp; Reaming (3/16″ drill bit, 1/4″ drill bit, 1/4″ reamer)</td><td>Drilling &amp; Reaming (3/16″ drill bit, 1/4″ drill bit, 1/4″ reamer)</td></tr><tr><td>Finishing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td><td>Finishing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td></tr><tr><td>Chamfer (chamfer mill)</td><td>Chamfer (chamfer mill)</td></tr></tbody></table></div>
-<div class="row" style="max-width:860px"><figure class="shot" style="flex:1.8209 1 0"><img src="../assets/img/dfm-treasure-box/operations-top.jpg" alt="Fusion 360 operations list for the top half, with toolpaths on the stock" width="1078" height="592" loading="lazy" decoding="async"><figcaption>Top half operations in Fusion 360.</figcaption></figure><figure class="shot" style="flex:1.6889 1 0"><img src="../assets/img/dfm-treasure-box/operations-bottom.jpg" alt="Fusion 360 operations list for the bottom half, with toolpaths on the stock" width="912" height="540" loading="lazy" decoding="async"><figcaption>Bottom half operations in Fusion 360.</figcaption></figure></div>
-<div class="prose"><p>The total machine time for each half is about one hour. The initial operation takes approximately 30 minutes, and the pedestal milling takes approximately 10 minutes. Set up time will vary per machinist and shop. Assembly time is about one minute, resulting in a cycle time to create a box of 2 hours.</p></div>
-<h2 class="section-title">Drawings</h2>
-<div class="row"><figure class="shot" style="flex:1.5445 1 0"><a href="../assets/docs/dfm-treasure-box/spade-box-top-drawing.pdf"><img src="../assets/img/dfm-treasure-box/drawing-top.jpg" alt="Engineering drawing of the spade box top half" width="1024" height="663" loading="lazy" decoding="async"></a><figcaption>Spade Box Top Drawing (opens PDF).</figcaption></figure><figure class="shot" style="flex:1.5445 1 0"><a href="../assets/docs/dfm-treasure-box/spade-box-bottom-drawing.pdf"><img src="../assets/img/dfm-treasure-box/drawing-bottom.jpg" alt="Engineering drawing of the spade box bottom half" width="1024" height="663" loading="lazy" decoding="async"></a><figcaption>Spade Box Bottom Drawing (opens PDF).</figcaption></figure></div>
-<div class="single" style="max-width:820px"><figure class="shot"><a href="../assets/docs/dfm-treasure-box/spade-box-assembly-drawing.pdf"><img src="../assets/img/dfm-treasure-box/drawing-assembly.jpg" alt="Assembly drawing of the spade box with a numbered parts list" width="1024" height="663" loading="lazy" decoding="async"></a><figcaption>Spade Box Assembly Drawing (opens PDF).</figcaption></figure></div>
-<h2 class="section-title">BOM</h2>
-<div class="table-wrap"><table><thead><tr><th scope="col">Part</th><th scope="col">Quantity</th><th scope="col">Cost</th><th scope="col">Link</th></tr></thead><tbody><tr><td>3″ x 3″ x 1.25″ Aluminum Stock</td><td>2</td><td>$15.00</td><td><a href="https://www.mcmaster.com/9008K15-9008K152/">mcmaster.com/9008K15-9008K152/</a></td></tr><tr><td>0.25″ Dowel Pin</td><td>1</td><td>$0.22</td><td><a href="https://www.mcmaster.com/98381A537/">mcmaster.com/98381A537/</a></td></tr><tr><td>0.25″ Diamond Pin</td><td>1</td><td>$6.55</td><td><a href="https://www.mcmaster.com/8472A19/">mcmaster.com/8472A19/</a></td></tr></tbody></table></div><nav class="pager" aria-label="More projects"><a class="prev" href="urethane-casting-airpod-case.html"><span class="dir">&larr; Previous</span><span class="ttl">Urethane Casting Airpods Case</span></a><a class="next" href="fsae-motor-mounting.html"><span class="dir">Next &rarr;</span><span class="ttl">FSAE Motor Mounting</span></a></nav></main><footer class="site-footer"><div class="wrap"><span>&copy; 2026 Alex George</span><div class="socials"><a href="#" rel="me">LinkedIn</a><a href="#" rel="me">GitHub</a><a href="mailto:you@example.com">Email</a></div></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DFM Treasure Box | Alex George</title>
+        <meta name="description" content="A spade-shaped aluminum box that holds two poker blind chips, machined on a Tormach CNC mill with a custom 3D-printed jig.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="wrap">
+                <a class="brand" href="../index.html">Alex George</a>
+                <nav class="nav" aria-label="Main"><a href="../index.html">Home</a><a href="../mechatronics.html">Mechatronics</a><a href="../mechanical.html" aria-current="page">Mechanical</a><a href="../software.html">Software</a><a href="../research.html">Research</a></nav>
+            </div>
+        </header>
+        <main class="wrap">
+            <div class="crumbs"><a href="../index.html">Home</a> / <a href="../mechanical.html">Mechanical Projects</a></div>
+            <div class="project-head">
+                <span class="year">2026</span>
+                <h1>DFM Treasure Box</h1>
+                <div class="tags">
+                    <span class="tag">Fusion 360</span>
+                    <span class="tag">CNC milling</span>
+                    <span class="tag">Tormach</span>
+                    <span class="tag">Custom jig</span>
+                </div>
+            </div>
+            <div class="prose">
+                <p>As part of my Design for Manufacturing course, I designed and fabricated a precision-machined &ldquo;treasure box&rdquo; to hold two poker blind chips.</p>
+            </div>
+            <div class="prose">
+                <p>The goal of this project was to design two interlocking halves that could be machined on a CNC mill out of 3″ x 3″ x 1.25″ aluminum stock. The box had to have internal geometry to secure an object of our choice and could fit whatever aesthetic we wanted. I chose to design my box to hold two poker blind chips, both of which were 1.875″ in diameter. The overall shape of the box was a spade, to fit with the poker theme. The two halves of the box were aligned with a 0.25″ dowel pin and 0.25″ diamond pin for easy assembly.</p>
+            </div>
+            <div class="row">
+                <figure class="shot" style="flex:0.7500 1 0">
+                    <img src="../assets/img/dfm-treasure-box/spade-box.jpg" alt="The closed aluminum spade-shaped box on a wooden table" width="1350" height="1800" loading="lazy" decoding="async">
+                </figure>
+                <figure class="shot" style="flex:1.8809 1 0">
+                    <img src="../assets/img/dfm-treasure-box/flat-open.jpg" alt="The two halves of the open box side by side, one holding a wooden BIG BLIND poker chip" width="1800" height="957" loading="lazy" decoding="async">
+                </figure>
+            </div>
+            <div class="prose">
+                <p>The final project is pictured above. It successfully holds two poker chips, and both of them are easy to remove due to the machined divots next to the hole that holds the chips. The two halves are also easy to align and remove, allowing the box to be opened and closed many times. While the shape of the box fits my intended aesthetic very well, I hope to be able to powder coat the box black in the near future.</p>
+            </div>
+            <div class="row" style="max-width:780px">
+                <figure class="shot" style="flex:1.2332 1 0">
+                    <img src="../assets/img/dfm-treasure-box/cam-bottom.jpg" alt="Fusion 360 simulation of the bottom half&#x27;s toolpaths around the stock" width="952" height="772" loading="lazy" decoding="async">
+                    <figcaption>Fusion 360 toolpaths for the bottom half.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:1.3242 1 0">
+                    <img src="../assets/img/dfm-treasure-box/cam-top.jpg" alt="Fusion 360 simulation of the top half&#x27;s toolpaths around the stock" width="968" height="731" loading="lazy" decoding="async">
+                    <figcaption>Fusion 360 toolpaths for the top half.</figcaption>
+                </figure>
+            </div>
+            <div class="row">
+                <figure class="shot" style="flex:0.7500 1 0">
+                    <img src="../assets/img/dfm-treasure-box/machining-bottom.jpg" alt="The bottom half clamped in the vise of a Tormach 770 mill" width="1350" height="1800" loading="lazy" decoding="async">
+                    <figcaption>Machining the bottom half on the Tormach mill.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:0.7500 1 0">
+                    <img src="../assets/img/dfm-treasure-box/machining-top-1.jpg" alt="Standing at a CNC mill&#x27;s control panel while the top half is machined" width="1350" height="1800" loading="lazy" decoding="async">
+                    <figcaption>Machining the top half.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:1.3333 1 0">
+                    <img src="../assets/img/dfm-treasure-box/machining-top-2.jpg" alt="Watching the top half being machined through the mill&#x27;s window" width="1800" height="1350" loading="lazy" decoding="async">
+                    <figcaption>Machining the top half.</figcaption>
+                </figure>
+            </div>
+            <div class="single" style="max-width:640px">
+                <figure class="shot"><img src="../assets/img/dfm-treasure-box/tormach-controller.jpg" alt="The Tormach controller screen showing the loaded program and axis positions" width="1800" height="1350" loading="lazy" decoding="async">
+                    <figcaption>The program loaded on the Tormach controller.</figcaption>
+                </figure>
+            </div>
+            <div class="prose">
+                <p>This project marked my first full workflow from CAD to CAM to machining. I generated all toolpaths in Fusion 360 and machined the components on a Tormach CNC mill, gaining hands-on experience with setup, workholding strategy, and multi-operation machining. The parts were produced using a pedestal milling approach, with excess stock faced off in a secondary operation to achieve final geometry and surface finish.</p>
+            </div>
+            <div class="row" style="max-width:640px">
+                <figure class="shot" style="flex:0.7500 1 0">
+                    <img src="../assets/img/dfm-treasure-box/pedestal-milling.jpg" alt="The part clamped in the mill&#x27;s vise with the green custom jig" width="1350" height="1800" loading="lazy" decoding="async">
+                    <figcaption>The part clamped in the vise with the custom jig.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:0.7500 1 0">
+                    <img src="../assets/img/dfm-treasure-box/jig-before-pedestal-milling.jpg" alt="A hand holding the part with the green 3D-printed jig attached" width="1350" height="1800" loading="lazy" decoding="async">
+                    <figcaption>The part with the custom jig before pedestal milling.</figcaption>
+                </figure>
+            </div>
+            <div class="prose">
+                <p>One of the challenges with this project was the pedestal milling. Part of the geometry of the spade is the point at the end, which is not easy to clamp onto with a vise in the CNC mill. I designed and 3D printed a custom jig to hold the point, which allowed me to securely clamp the piece in the mill and successfully remove excess stock from the bottom of both of the halves.</p>
+            </div>
+            <div class="row" style="max-width:640px">
+                <figure class="shot" style="flex:0.7500 1 0">
+                    <img src="../assets/img/dfm-treasure-box/fit-before-pedestal-milling.jpg" alt="The aluminum block with its pedestal before the excess stock is milled away" width="1350" height="1800" loading="lazy" decoding="async">
+                    <figcaption>Fit check before pedestal milling.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:0.9872 1 0">
+                    <img src="../assets/img/dfm-treasure-box/faced-top.jpg" alt="The top half after facing, with visible cutter marks" width="1777" height="1800" loading="lazy" decoding="async">
+                    <figcaption>The top half after facing.</figcaption>
+                </figure>
+            </div>
+            <div class="row" style="max-width:700px">
+                <figure class="shot" style="flex:1.1799 1 0">
+                    <img src="../assets/img/dfm-treasure-box/cad-front.jpg" alt="CAD front view of the two halves with the alignment pins" width="551" height="467" loading="lazy" decoding="async">
+                    <figcaption>CAD of the box, front view.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:0.8810 1 0">
+                    <img src="../assets/img/dfm-treasure-box/cad-iso.jpg" alt="CAD isometric view of the two halves separated with the alignment pins between them" width="555" height="630" loading="lazy" decoding="async">
+                    <figcaption>CAD of the box, isometric view.</figcaption>
+                </figure>
+            </div>
+            <div class="prose">
+                <p>Another challenge was determining the tolerances of the alignment holes that the pins were set in. One of the pins was a dowel pin, which had a diameter of 0.25″ throughout. The other was a diamond pin, which had a shank with a diameter of 3/16″ and a diamond head diameter of 0.25″. I used a reamer for the 0.25″ holes in order to ensure that they were concentric and the correct diameter for my dowel pins. The fit on these holes is good - the dowel pin fits snugly with very little wiggle, but is still easy to remove if necessary. I failed to realize that the shank of the diamond pin required equally precise tolerance. I simply used a 3/16″ drill bit, and, as a result, there is a small amount of wiggle. While the two halves of the box fit together well, this small amount of wiggle prevents it from being as polished a final product as it could be.</p>
+            </div>
+            <div class="prose">
+                <p>While machining the two halves of the box, I was worried that it would be difficult to slide the pins into the box. To avoid this, I added a chamfer to all the holes in the box. This makes it easy to drop the poker chips into the box, as well as getting the pins in place.</p>
+            </div>
+            <div class="row">
+                <figure class="shot" style="flex:0.9972 1 0">
+                    <img src="../assets/img/dfm-treasure-box/machined-top.jpg" alt="The machined top half of the box" width="1795" height="1800" loading="lazy" decoding="async">
+                    <figcaption>The top half, machined.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:0.9794 1 0">
+                    <img src="../assets/img/dfm-treasure-box/machined-bottom.jpg" alt="The machined bottom half with the chip pocket and pin holes" width="1763" height="1800" loading="lazy" decoding="async">
+                    <figcaption>The bottom half, machined.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:1.4622 1 0">
+                    <img src="../assets/img/dfm-treasure-box/iso-open.jpg" alt="The two halves of the box open, side by side" width="1800" height="1231" loading="lazy" decoding="async">
+                    <figcaption>The two halves, open.</figcaption>
+                </figure>
+            </div>
+            <div class="prose">
+                <p>Overall, this was a successful project that taught me a lot about designing for CNC machining, how to set up CAM, and how to operate a CNC mill. I also learned how to tolerance a part to ensure proper fit, which will continue to be useful for future projects.</p>
+            </div>
+            <h2 class="section-title">Manufacturing Details</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">List of Operations (Top Half)</th>
+                            <th scope="col">List of Operations (Bottom Half)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Facing (2″ face mill)</td>
+                            <td>Facing (2″ face mill)</td>
+                        </tr>
+                        <tr>
+                            <td>Roughing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td>
+                            <td>Roughing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td>
+                        </tr>
+                        <tr>
+                            <td>Drilling &amp; Reaming (3/16″ drill bit, 1/4″ drill bit, 1/4″ reamer)</td>
+                            <td>Drilling &amp; Reaming (3/16″ drill bit, 1/4″ drill bit, 1/4″ reamer)</td>
+                        </tr>
+                        <tr>
+                            <td>Finishing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td>
+                            <td>Finishing Cuts (3/4″ flat end mill and 1/4″ flat end mill)</td>
+                        </tr>
+                        <tr>
+                            <td>Chamfer (chamfer mill)</td>
+                            <td>Chamfer (chamfer mill)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row" style="max-width:860px">
+                <figure class="shot" style="flex:1.8209 1 0">
+                    <img src="../assets/img/dfm-treasure-box/operations-top.jpg" alt="Fusion 360 operations list for the top half, with toolpaths on the stock" width="1078" height="592" loading="lazy" decoding="async">
+                    <figcaption>Top half operations in Fusion 360.</figcaption>
+                </figure>
+                <figure class="shot" style="flex:1.6889 1 0">
+                    <img src="../assets/img/dfm-treasure-box/operations-bottom.jpg" alt="Fusion 360 operations list for the bottom half, with toolpaths on the stock" width="912" height="540" loading="lazy" decoding="async">
+                    <figcaption>Bottom half operations in Fusion 360.</figcaption>
+                </figure>
+            </div>
+            <div class="prose">
+                <p>The total machine time for each half is about one hour. The initial operation takes approximately 30 minutes, and the pedestal milling takes approximately 10 minutes. Set up time will vary per machinist and shop. Assembly time is about one minute, resulting in a cycle time to create a box of 2 hours.</p>
+            </div>
+            <h2 class="section-title">Drawings</h2>
+            <div class="row">
+                <figure class="shot" style="flex:1.5445 1 0">
+                    <a href="../assets/docs/dfm-treasure-box/spade-box-top-drawing.pdf">
+                        <img src="../assets/img/dfm-treasure-box/drawing-top.jpg" alt="Engineering drawing of the spade box top half" width="1024" height="663" loading="lazy" decoding="async">
+                    </a>
+                    <figcaption>Spade Box Top Drawing (opens PDF).</figcaption>
+                </figure>
+                <figure class="shot" style="flex:1.5445 1 0">
+                    <a href="../assets/docs/dfm-treasure-box/spade-box-bottom-drawing.pdf">
+                        <img src="../assets/img/dfm-treasure-box/drawing-bottom.jpg" alt="Engineering drawing of the spade box bottom half" width="1024" height="663" loading="lazy" decoding="async">
+                    </a>
+                    <figcaption>Spade Box Bottom Drawing (opens PDF).</figcaption>
+                </figure>
+            </div>
+            <div class="single" style="max-width:820px">
+                <figure class="shot">
+                    <a href="../assets/docs/dfm-treasure-box/spade-box-assembly-drawing.pdf">
+                        <img src="../assets/img/dfm-treasure-box/drawing-assembly.jpg" alt="Assembly drawing of the spade box with a numbered parts list" width="1024" height="663" loading="lazy" decoding="async">
+                    </a>
+                    <figcaption>Spade Box Assembly Drawing (opens PDF).</figcaption>
+                </figure>
+            </div>
+            <h2 class="section-title">BOM</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Part</th><th scope="col">Quantity</th><th scope="col">Cost</th><th scope="col">Link</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>3″ x 3″ x 1.25″ Aluminum Stock</td><td>2</td><td>$15.00</td><td><a href="https://www.mcmaster.com/9008K15-9008K152/">mcmaster.com/9008K15-9008K152/</a></td></tr>
+                        <tr><td>0.25″ Dowel Pin</td><td>1</td><td>$0.22</td><td><a href="https://www.mcmaster.com/98381A537/">mcmaster.com/98381A537/</a></td></tr>
+                        <tr><td>0.25″ Diamond Pin</td><td>1</td><td>$6.55</td><td><a href="https://www.mcmaster.com/8472A19/">mcmaster.com/8472A19/</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <nav class="pager" aria-label="More projects"><a class="prev" href="urethane-casting-airpod-case.html"><span class="dir">&larr; Previous</span><span class="ttl">Urethane Casting Airpods Case</span></a><a class="next" href="fsae-motor-mounting.html"><span class="dir">Next &rarr;</span><span class="ttl">FSAE Motor Mounting</span></a></nav>
+        </main>
+        <footer class="site-footer">
+            <div class="wrap">
+                <span>&copy; 2026 Alex George</span>
+                <div class="socials">
+                    <a href="#" rel="me">LinkedIn</a>
+                    <a href="#" rel="me">GitHub</a>
+                    <a href="mailto:you@example.com">Email</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

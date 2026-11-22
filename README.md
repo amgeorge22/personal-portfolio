@@ -41,6 +41,14 @@ Buttons and links that point to files or URLs you haven't supplied yet are marke
 
 The footer is repeated in each HTML file, so use find-and-replace across the folder when you update the social links.
 
+## Other To-Dos
+- Go over tags for each project and update them (both on overview page and each project page)
+- Revamp home page to be more updated
+- Put DFM portfolio pages together
+- Find missing images and get them into the repo
+- Add third research paper
+- Go over content on each page
+
 ## Structure
 
 ```

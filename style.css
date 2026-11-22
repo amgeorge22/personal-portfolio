@@ -203,7 +203,6 @@ section.block { padding: 48px 0; border-top: 1px solid var(--line); }
 
 .shot { margin: 0; position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
 .shot img, .shot video { display: block; width: 100%; height: auto; }
-.diagram-shot img { height: auto; }
 .shot .ph {
   display: flex;
   flex-direction: column;
@@ -270,4 +269,35 @@ section.block { padding: 48px 0; border-top: 1px solid var(--line); }
 
 @media print {
   .site-header, .site-footer, .pager { display: none; }
+}
+
+/* ======================================================================
+   Project write-ups: equal-height picture rows, section headings, tables
+   (added for the DFM pages; safe to keep even if you restyle the rest)
+   ====================================================================== */
+.row { display: flex; gap: 16px; margin: 32px 0; align-items: flex-start; }
+.row .shot { min-width: 0; }
+.single { margin: 32px 0; }
+.shot a { display: block; }
+.shot img { background: var(--surface); }
+.row .shot figcaption, .single .shot figcaption { line-height: 1.5; }
+
+.section-title { font-size: 1.7rem; margin: 64px 0 4px; padding-top: 28px; border-top: 1px solid var(--line); }
+
+.table-wrap { overflow-x: auto; max-width: 860px; margin: 24px 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.table-wrap table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+.table-wrap th { text-align: left; background: var(--navy); color: var(--bg); font-weight: 500; padding: 10px 14px; }
+.table-wrap td { padding: 10px 14px; border-top: 1px solid var(--line); vertical-align: top; }
+.table-wrap tbody tr:first-child td { border-top: 0; }
+.table-wrap a { overflow-wrap: anywhere; }
+
+.prose.refs ol { padding-left: 1.4em; }
+.prose.refs a { overflow-wrap: anywhere; }
+.cite-mark { font-size: 0.7em; line-height: 0; }
+.cite-mark a { text-decoration: none; }
+
+@media (max-width: 560px) {
+  .row { flex-direction: column; }
+  .row .shot { flex: none !important; width: 100%; }
+  .section-title { font-size: 1.45rem; margin-top: 48px; }
 }

@@ -36,18 +36,17 @@ Buttons and links that point to files or URLs you haven't supplied yet are marke
 | Inverted Pendulum Controller | `assets/docs/inverted-pendulum-report.pdf` |
 | FSAE Motor Mounting | `assets/docs/fsae-motor-mounting-breakdown.pdf` |
 | Beam Deflection Calculator | `assets/docs/beam-deflection-report.pdf` |
-| 3D Printing Variability Study | `assets/docs/3d-printing-variability-report.pdf` |
-| Injection Keychain / Airpod Case / Treasure Box | `assets/docs/dfm-portfolio.pdf` |
 
 The footer is repeated in each HTML file, so use find-and-replace across the folder when you update the social links.
 
 ## Other To-Dos
 - Go over tags for each project and update them (both on overview page and each project page)
 - Revamp home page to be more updated
-- Put DFM portfolio pages together
 - Find missing images and get them into the repo
-- Add third research paper
+- Add description for research paper
 - Go over content on each page
+- Change mentions of DFM in title of treasure box to CNC
+- Decide which pages to put in graveyard
 
 ## Structure
 
